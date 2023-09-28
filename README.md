@@ -30,4 +30,4 @@ Fonte: https://learn.microsoft.com/en-us/azure/dns/dns-private-resolver-overview
 - Pode ser lincado com uma ou mais Virtual Networks;
 
 ## 5 - DNS Fowarding Rules
-- São regras para encaminhamento de consulta recursiva;
+- São regras para encaminhamento de consultas;
