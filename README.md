@@ -24,7 +24,7 @@ Fonte: https://learn.microsoft.com/en-us/azure/dns/dns-private-resolver-overview
 ## 3 - Virtual Network Links
 - O virtual network link habilita a resolução de nomes para as virtual networks necessárias.
 
-## 4 - RuleSets
+## 4 - Rule Sets
 - O RuleSet são grupos de regras de encaminhamento;
 - Pode ser aplicado a um ou mais Outbound Endpoints;
 - Pode ser lincado com uma ou mais Virtual Networks;
