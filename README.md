@@ -14,9 +14,20 @@ Fonte: https://learn.microsoft.com/en-us/azure/dns/dns-private-resolver-overview
 
 
 ## 1 - Inbound endpoints
-- O Inbound endpoint habilita a resolução a partir do ambiente on-premises ou de outro local privado. 
-- Para resolver nomes da sua Zona de DNS privada do Azure, insira o endereço IP do Inbound endpoints no conditional fowarder do servidor de DNS local. 
+- O Inbound endpoint habilita a resolução a partir do ambiente on-premises ou de outro local privado;
+- Para resolver nomes da sua Zona de DNS privada do Azure, insira o endereço IP do Inbound endpoints no conditional fowarder do servidor de DNS local;
 
 ## 2 - Outbound endpoints
-- O Outbound enpoint habilita a resolução de nomes através de conditional fowarders do Azure para endereços locais.
+- O Outbound enpoint habilita a resolução de nomes através de conditional fowarders do Azure para endereços locais;
+- Necessário subnet dedicada para isto;
   
+## 3 - Virtual Network Links
+- O virtual network link habilita a resolução de nomes para as virtual networks necessárias.
+
+## 4 - RuleSets
+- O RuleSet são grupos de regras de encaminhamento;
+- Pode ser aplicado a um ou mais Outbound Endpoints;
+- Pode ser lincado com uma ou mais Virtual Networks;
+
+## 5 - DNS Fowarding Rules
+- São regras para encaminhamento de consulta recursiva;
