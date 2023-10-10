@@ -1,6 +1,6 @@
 # Azure DNS Private Resolver
 
-Em seu ambiente pode ser necessário utilizar zonas de DNS privadas, seja por causa da utilização de private endpoints ou por outros motivos. O problema da utilização de zonas privadas, é que por default elas respondem somente a consultas internas no azure e para a resolução de nomes funcionar corretamente é necessário que as vnets de onde vão partir as requisições de resolução de nomes estejam configuradas na blade Virtual network links na Zona DNS.
+Em seu ambiente pode ser necessário a utilização de zonas de DNS privadas, seja por causa da utilização de private endpoints ou por outros motivos. O problema da utilização de zonas privadas, é que por default elas respondem somente a consultas internas no azure e para a resolução de nomes funcionar corretamente é necessário que as vnets de onde vão partir as requisições de resolução de nomes estejam configuradas na blade Virtual network links na Zona DNS.
 
 Caso tenham ambiente hibrido, a resolução de nomes não vai funcionar a partir do ambiente on-premises. Neste momento que o Private DNS Resolver entra em ação.
 Este recurso possibilita a resolução de nomes nos dois sentidos, tanto a partir do ambiente on-premises para o Azure, quando no sentido inverso. 
